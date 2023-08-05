@@ -3,9 +3,8 @@
 ## Project Description and Architecture Overview
 we developed a cutting-edge data pipeline capable of gathering real-time data from streaming sources and feeds into two dynamic dashboards: a real-time dashboard on a NoSQL Database and an aggregated dashboard showcasing our business's transformative changes over time.
 
-<p align="center">
-<img src="https://github.com/islamyounis/Taxi-Network-Analysis-with-Data-Warehousing-ETL-Batch-Processing-Real-Time-Processing-Data-Analysis/assets/83661639/9e067a3b-790d-4191-8c58-833d632e49ac.jpg">
-</p>
+![1231“](https://github.com/islamyounis/Taxi-Network-Analysis-with-ETL-Real-Time-Processing-Data-Analysis/assets/83661639/e769e904-f6fe-48b2-95b1-43d11663e5e2)
+
 
 Our data originates from the "Taxi Network in New York City." We simulate it as a streaming data source using Python. Next, we utilize Kafka as a Message Queueing Service to receive data from multiple sources and distribute it to multiple consumers. The data is then processed in Spark and loaded into HDFS. With the help of Pyspark, we perform ETL operations and store the results in a modeled DWH in Postgres. For visualizing aggregated data, we employ PowerBI.
 
