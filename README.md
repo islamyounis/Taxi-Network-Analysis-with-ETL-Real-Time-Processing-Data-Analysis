@@ -47,8 +47,9 @@ This setup ensures that the data from each topic is segregated and organized, ma
 
 
 **4- Enhancing Data storage In HDFS:**
+![1236](https://github.com/islamyounis/Taxi-Network-Analysis-with-ETL-Real-Time-Processing-Data-Analysis/assets/83661639/fecc8ccf-9e0d-4783-ab3d-72a899ec1ff8)
 
-![1236](https://github.com/islamyounis/Taxi-Network-Analysis-with-Data-Warehousing-ETL-Batch-Processing-Real-Time-Processing-Data-Analysis/assets/83661639/1d8b474a-781c-4d38-8188-d9bff3aa5778)
+
 
 While implementing the streaming data retrieval from Kafka and loading it into HDFS, we encountered two challenges:
 
@@ -81,7 +82,7 @@ By automating the ETL process through scheduled batch jobs and leveraging the po
 
 we harnessed the power of Power BI to gain valuable insights and effectively visualize our data
 
-![1235](https://github.com/islamyounis/Taxi-Network-Analysis-with-Data-Warehousing-ETL-Batch-Processing-Real-Time-Processing-Data-Analysis/assets/83661639/4a0b197c-40f4-483d-9d8e-141d0f6bfbd7)
+![1235](https://github.com/islamyounis/Taxi-Network-Analysis-with-ETL-Real-Time-Processing-Data-Analysis/assets/83661639/5b154e12-642c-4849-8265-20a0bfe949ce)
 
 
 
@@ -94,6 +95,7 @@ we harnessed the power of Power BI to gain valuable insights and effectively vis
 We have strategically employed Cassandra as our data storage solution to facilitate real-time dashboard support. Cassandra's ability to provide efficient random access on the data allows for rapid updates and seamless real-time updates in our dashboards. This ensures that the dashboard reflects the most up-to-date information for users.
 
 Below is a screenshot depicting how our data is organized and stored in Cassandra, highlighting its distributed nature and partitioning scheme:
-![1237](https://github.com/islamyounis/Taxi-Network-Analysis-with-Data-Warehousing-ETL-Batch-Processing-Real-Time-Processing-Data-Analysis/assets/83661639/c077e2a1-ab2c-409f-af92-afd4358635d6)
+![1237](https://github.com/islamyounis/Taxi-Network-Analysis-with-ETL-Real-Time-Processing-Data-Analysis/assets/83661639/a7a2d64e-c344-4803-a50c-66448369ac5b)
+
 
 With Cassandra's distributed architecture and robust data replication, we can achieve high availability, fault tolerance, and scalability, making it an ideal choice for handling the demanding requirements of our real-time dashboard. Its optimized read and write operations enable us to deliver a responsive and dynamic dashboard experience to our users, ensuring they have access to the latest insights and analytics.
