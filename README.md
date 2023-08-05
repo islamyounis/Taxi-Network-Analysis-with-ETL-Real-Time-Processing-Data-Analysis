@@ -62,8 +62,8 @@ While implementing the streaming data retrieval from Kafka and loading it into H
 
 
 **5- Data Warehouse Modeling**
-![image](https://github.com/islamyounis/Taxi-Network-Analysis-with-Data-Warehousing-ETL-Batch-Processing-Real-Time-Processing-Data-Analysis/assets/83661639/1a6f49fc-c139-4875-b933-482d5b72f365)
 
+![1238](https://github.com/islamyounis/Taxi-Network-Analysis-with-ETL-Real-Time-Processing-Data-Analysis/assets/83661639/70fd47b7-03a7-4826-a002-aef9d42fb09a)
 
 
 
