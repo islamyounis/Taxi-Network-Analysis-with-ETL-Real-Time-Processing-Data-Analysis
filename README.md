@@ -72,7 +72,7 @@ While implementing the streaming data retrieval from Kafka and loading it into H
 We have meticulously designed an ETL job for each type of data to execute as a batch processing operation, typically scheduled at the end of each day using Cron tab. These ETL jobs undertake essential tasks such as data processing, transformation, and cleanup. We handle NULLs, 0 values, and unwanted columns, ensuring data integrity and consistency. Additionally, we extract day, month, and year information, group and aggregate transactions by day, and create a DateID column for efficient date-based querying.
 
 
-Once the data is processed and transformed, we store the result in the "Proc_data Dir" and proceed to write it to Postgres. The data is then seamlessly integrated into a transactional fact table in the Postgres database, providing a reliable foundation for further analysis and reporting.
+After the data has been meticulously processed and meticulously transformed, we securely archive the files that have successfully undergone this comprehensive Extract, Transform, Load (ETL) process within the designated "Proc_data Directory." Subsequently, we proceed to inscribe the resulting insights into the Postgres database. This data seamlessly converges into a transactional fact table housed within the Postgres database, establishing a robust cornerstone for subsequent in-depth analysis and streamlined reporting endeavors.
 
 
 
